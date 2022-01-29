@@ -15,7 +15,13 @@ public class ReverseStringByStringBuilder {
 		str=sb.reverse().toString();
 		System.out.println(str);
 		
-		
+		//2th way by arrays
+		str= "Halil Turkmen";
+		String s2 = "";
+		for (int i=str.length()-1;i>=0;i--) {
+			s2+=str.charAt(i);
+		}
+		System.out.println(s2);
 	}
 	
 }
