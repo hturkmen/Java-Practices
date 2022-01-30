@@ -9,8 +9,8 @@ public class ExcepTest {
 			
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Exception thrown :" + e);
-			
 		}
+		
 	}
 
 }
