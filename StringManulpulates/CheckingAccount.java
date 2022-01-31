@@ -1,6 +1,4 @@
 package StringManulpulates;
-// File Name CheckingAccount.java
-import java.io.*;
 
 public class CheckingAccount {
    private double balance;
